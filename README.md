@@ -1,0 +1,6 @@
+![Icones](https://github.com/ericknlopes/kick_projetos_0001/assets/78979694/843d1440-a824-4451-be28-7b8841a1afe3)
+![Imagens](https://github.com/ericknlopes/kick_projetos_0001/assets/78979694/b4797adc-01a5-4d31-8702-995e7c81e663)
+![Fontes](https://github.com/ericknlopes/kick_projetos_0001/assets/78979694/27b0bb5c-4f8f-4cb2-bd1a-f64cab2c284c)
+![SALGADOS_3](https://github.com/ericknlopes/kick_projetos_0001/assets/78979694/856b8906-a430-4381-aac4-c8f6c9aff573)
+![Paleta](https://github.com/ericknlopes/kick_projetos_0001/assets/78979694/4dfeff34-4c14-4a6e-b697-042efb35ce41)
+![Wireframe](https://github.com/ericknlopes/kick_projetos_0001/assets/78979694/aee108fa-ca4f-496c-a47c-a3642ce43c20)
