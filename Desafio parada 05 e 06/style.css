@@ -1,0 +1,11 @@
+button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+button :hover{
+    transition: 0.5s;
+    color: aqua;
+    background-attachment: green;
+}
