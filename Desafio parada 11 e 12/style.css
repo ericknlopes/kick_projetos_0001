@@ -1,0 +1,91 @@
+* {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #14213D;
+    width: 100%;
+    border-color: #14213D;
+    border: 20px;
+    height: 150px;
+    text-align: left;
+}
+.logo {
+    width: 200px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    margin-left: 50px;
+}
+.name {
+    color: #E5E5E5;
+    vertical-align: middle;
+    text-align: left;
+    font-size: larger;
+}
+.nav {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 40px;
+    table-layout: fixed;
+    text-align: center;
+    font-weight: 400;
+        a:link {color: #FCA311; font-weight: bolder;}
+        a:hover {color:#14213D; }
+}
+.body {
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+.title {
+    color: #14213D;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.tabela {
+    table-layout: fixed;
+    width: 600px;
+    
+}
+.textMenu {
+    color: #E5E5E5;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.menu {
+    text-align: center;
+    font-weight: 400;
+        a:link {color: #ebddd8; font-weight: bolder;}
+        a:hover {color:#666063; }
+}
+.subtitle {
+    color: #FCA311;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;    
+}
+.article {
+    font-size: medium;
+    text-align: justify;
+}
+.menuBack {
+    width: 20%;
+    background-color: #14213D;
+}
+.footer {
+    width: 100%;
+    background-color: #fc8211;
+    color: #14213D;
+    text-align: center;
+    line-height: 10px;
+}
+.textFooter {
+    color: #14213D;
+}
