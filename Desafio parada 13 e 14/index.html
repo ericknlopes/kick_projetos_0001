@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pc da hora</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #4c8baf;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .content-section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f2f2f2;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+        }
+        @media only screen and (max-width: 768px) {
+            .column {
+                width: 100%;
+            }
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PC da Hora</h1>
+    <p>24 Horas Ligado</p>
+</header>
+
+<div class="container">
+    <div class="content-section">
+        <h2>Nossos Serviços</h2>
+        <div class="column">
+            <h3>Serviço de Técnologia</h3>
+            <p>Ajudamos você com todos os srviços de computação.</p>
+        </div>
+        <div class="column">
+            <h3>Manutenção de Computadores</h3>
+            <p>Manutenção do seu computador, limpeza em geral, formatação e atualização para uma melhor experiência.</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="content-section">
+        <h2>Contate-nos</h2>
+        <p>Estamos sempre a disposição para te atender. Entre em contato para solicitar um orçamento ou tirar suas dúvidas.</p>
+        <p>Telefone: (XX) XXXX-XXXX<br>
+           Email: pcdahora@pcdahora.com</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Pc da Hora. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
