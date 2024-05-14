@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AO VIVO RJ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            padding: 10px;
+            margin-right: 20px;
+            position: relative;
+        }
+        nav ul li:hover {
+            background-color: #333;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 100px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        @media only screen and (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav ul li {
+                margin: 0;
+            }
+            .dropdown-content {
+                position: static;
+                display: none;
+                background-color: transparent;
+            }
+            .dropdown:hover .dropdown-content {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">AO VIVO RJ</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Notícias</a>
+                <div class="dropdown-content">
+                    <a href="#">Games</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">TV</a>
+                </div>
+            </li>
+            <li><a href="#">Análises</a></li>
+            <li><a href="#">Vídeos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h1>Bem-vindo ao AO VIVO RJ</h1>
+    <p>O lugar onde você encontra tudo sobre as últimas notícias do estado sobre jogos, filmes, TV e muito mais!</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 AO VIVO RJ. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
