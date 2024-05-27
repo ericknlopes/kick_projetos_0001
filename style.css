@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.urna {
+background-color: cornflowerblue;
+padding: 30px;
+display: flex;
+
+}
+
+.tela {
+    width: 450px;
+    height: 320px;
+    background-color: linear-gradient(to right, cornflowerblue, cornflowerblue);
+}
+
+.teclado {
+    background-color: cadetblue;
+}
