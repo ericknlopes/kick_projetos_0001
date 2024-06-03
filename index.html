@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Urna de Votação</title>
-   
-    </head>
-   
-    <script>
-
-        var inp = prompt("Digite o numero do seu Presidente, (13) ou (22)");
-
-    if(inp==22){
-        document.write("<h1>Você votou no Bolsonaro</h1>");
-    
-        }else if (inp==13){
-            document.write("<h1>Você votou no Lula</h1>");
-        
-        }else defaut:document.write("h1>Voto invalido</h1");
-
-</script>
-    
+    <title>Quiz de Conhecimentos Gerais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz de Conhecimentos Gerais</h1>
+    <div id="quiz-container">
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Qual é a capital do Brasil?</p>
+                <label><input type="radio" name="question1" value="Brasília"> Brasília</label><br>
+                <label><input type="radio" name="question1" value="São Paulo"> São Paulo</label><br>
+                <label><input type="radio" name="question1" value="Rio de Janeiro"> Rio de Janeiro</label><br>
+            </div>
+            <div class="question">
+                <p>2. Qual é o maior oceano do mundo?</p>
+                <label><input type="radio" name="question2" value="Atlântico"> Atlântico</label><br>
+                <label><input type="radio" name="question2" value="Pacífico"> Pacífico</label><br>
+                <label><input type="radio" name="question2" value="Índico"> Índico</label><br>
+            </div>
+            <div class="question">
+                <p>3. Quem pintou a Mona Lisa?</p>
+                <label><input type="radio" name="question3" value="Leonardo da Vinci"> Leonardo da Vinci</label><br>
+                <label><input type="radio" name="question3" value="Michelangelo"> Michelangelo</label><br>
+                <label><input type="radio" name="question3" value="Raphael"> Raphael</label><br>
+            </div>
+            <button type="button" onclick="submitQuiz()">Enviar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
